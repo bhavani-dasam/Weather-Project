@@ -37,11 +37,11 @@ async def fetch_weather(session, order):
 
             weather_condition = data["weather"][0]["main"]
 
-            if weather_condition != "Clear":
-                order["status"] = "Delayed"
-                order["message"] = generate_message(
-                    order["customer"], city, weather_condition
-                )
+            # 🔥 Force update for demo (so output always changes)
+            order["status"] = "Delayed"
+            order["message"] = generate_message(
+                order["customer"], city, weather_condition
+            )
 
             return order
 
