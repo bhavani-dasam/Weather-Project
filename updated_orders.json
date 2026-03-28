@@ -3,8 +3,7 @@
     "order_id": "1001",
     "customer": "Alice Smith",
     "city": "New York",
-    "status": "Delayed",
-    "message": "Hi Alice Smith, your order to New York is slightly delayed. Thank you for your patience!"
+    "status": "Pending"
   },
   {
     "order_id": "1002",
