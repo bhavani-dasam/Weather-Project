@@ -1,0 +1,8 @@
+Prompt 1:
+"Write Python code using asyncio to fetch weather data for multiple cities in parallel."
+
+Prompt 2:
+"Add error handling so if one API request fails, the program continues processing other cities."
+
+Prompt 3:
+"Generate a function to create a personalized delay message based on weather conditions."
